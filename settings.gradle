@@ -1,0 +1,5 @@
+rootProject.name = 'lincor'
+include 'recruitment'
+findProject(':recruitment')?.name = 'recruitment'
+include 'recruitmentTask2'
+
